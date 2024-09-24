@@ -86,9 +86,9 @@ export default function Home() {
 
         </form>
 
-        <div className="flex w-[40vw] gap-10 h-14 max-sm:w-full max-sm:gap-4 max-sm:items-end max-sm:flex-col max-lg:w-full">
+        <div className="flex w-[40vw] gap-10 h-14 max-lg:w-full max-xl:w-full max-sm:grid">
 
-          <div className="flex items-center p-4 w-2/3 rounded-full border-[3px] border-gray-1 bg-white gap-2 max-sm:w-full max-lg:bg-zinc-50">
+          <div className="flex items-center p-4 w-2/3 rounded-full border-[3px] border-gray-1 bg-white gap-2 max-sm:w-full max-lg:bg-zinc-50 max-sm:h-14">
               
               <Toggle></Toggle>
               <p className="text-gray-2 font-ABeeZee">Cadastro como Doula</p>
@@ -98,7 +98,7 @@ export default function Home() {
           <button className="w-1/3 transition duration-150 ease-in-out bg-gradient-to-r from-pink-3 to-orange-3 p-4 px-6 items-center justify-between rounded-full text-white flex hover:cursor-pointer hover:scale-95 max-sm:w-full max-sm:h-16">
             
             <p className="text-xl">Próximo</p>
-            <Image className="w-[20%]" alt="Arrow Icon" src={ArrowIcon}></Image>
+            <Image className="w-[20%] max-sm:w-[10%]" alt="Arrow Icon" src={ArrowIcon}></Image>
             
           </button>
           
