@@ -43,7 +43,7 @@ export default function Home() {
             <Image className="w-[15%]" alt="Lotus Icon" src={LotusIcon}></Image>
 
             <h1 className="text-gray-3 text-5xl">Login Lótus</h1>
-            <h2 className="text-gray-3">Ainda não possui uma conta? <span className="hover:text-gray-2 cursor-pointer">Clique aqui</span> </h2>
+            <h2 className="text-gray-3">Ainda não possui uma conta? <span className="hover:text-gray-2 cursor-pointer transition duration-150 ease-in-out">Clique aqui</span> </h2>
           </div>
 
           {/* Campos para entrada de valor */}
@@ -63,11 +63,11 @@ export default function Home() {
                 required/>
               </div>
 
-              <p className="text-pink-3 hover:text-pink-2  hover:cursor-pointer">Esqueceu sua senha?</p>
+              <p className="text-pink-3 hover:text-pink-2  hover:cursor-pointer transition duration-150 ease-in-out">Esqueceu sua senha?</p>
 
           </form>
 
-          <button onClick={validacaoLogin} className="bg-gradient-to-r from-pink-3 to-orange-3 w-40 p-4 px-6 items-center justify-between rounded-full text-white flex hover:cursor-pointer hover:scale-95">
+          <button onClick={validacaoLogin} className="transition duration-150 ease-in-out bg-gradient-to-r from-pink-3 to-orange-3 w-40 p-4 px-6 items-center justify-between rounded-full text-white flex hover:cursor-pointer hover:scale-95">
             
             <p className="text-xl">Entrar</p>
             <Image className="w-[20%]" alt="Arrow Icon" src={ArrowIcon}></Image>
